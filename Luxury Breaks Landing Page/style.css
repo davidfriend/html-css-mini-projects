@@ -84,3 +84,23 @@ p {
 	font-family: 'Quicksand', sans-serif;
 	color: #999999; 
 }
+
+@media screen and (max-width: 768px) {
+	.content h1 {
+		font-size: 250%; 
+	} 
+	.btn {
+	    font-size: 110%; 
+        padding: 7px 15px; 		
+	}
+	h2 {
+	    font-size: 150%;		
+	}
+	p {
+		font-size: 100%;
+		line-height: 160%; 
+	}
+	#footer-note {
+	    font-size: 75%; 	
+	}
+}
