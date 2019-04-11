@@ -75,3 +75,12 @@ p {
 	margin: 2% 10%;
 	font-family: 'Catamaran', sans-serif; 
 }
+
+#footer-note {
+    font-size: 100%;
+	line-height: 210%;
+	text-align: center;
+	margin: 2% 10%;
+	font-family: 'Quicksand', sans-serif;
+	color: #999999; 
+}
