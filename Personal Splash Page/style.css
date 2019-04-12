@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway'); 
+@import url('https://fonts.googleapis.com/css?family=Lato'); 
 
 body {
     background: url(https://images.pexels.com/photos/35600/road-sun-rays-path.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940); 
     background-size: cover; 
     background-position: center;
     background-attachment: fixed; 
-	font-family: 'Raleway', san-serif; 
+	font-family: 'Lato', san-serif; 
     line-height: 1.5;
     color: white; 	
 }
