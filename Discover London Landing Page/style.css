@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css/family=Roboto'); 
+
+body {
+	background: url('images/london.jpg'); 
+	background-size: cover;
+	background-position: center; 
+	background-attachment: fixed; 
+} 
+
+.container {
+    width: 350px;
+    margin: 150px auto;  	
+	text-align: center; 
+	font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    color: #ffffff;
+	font-size: 96px; 
+	font-weight: bold; 
+	margin-bottom: 75px; 
+}
+
+.btn {
+    border: none; 
+	border-radius: 9px; 
+	padding: 10px 20px; 
+	color: #f2f2f2; 
+	background: rgba(255, 51, 51, 0.7); 
+	font-size: 15px;  
+	font-weight: bold;
+	text-transform: uppercase; 
+	text-decoration: none;
+	letter-spacing: 2px; 	
+	margin-top: 75px; 
+}
+
+.btn:hover {
+    color: #ffffff;
+    background: rgba(255, 51, 51, 0.9);	
+}
