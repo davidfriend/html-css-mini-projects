@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans'); 
+
+html, body {
+    margin: 0; 
+    padding: 0; 
+    height: 100%; 
+    width: 100%;	
+}
+
+.intro {
+    height: 100%;
+    width: 100%;
+    margin: auto; 
+    background: url('images/mountain-landscape.jpg'); no-repeat: 50% 50%;
+	display: table; 
+	top: 0;
+	background-size: cover;
+    background-position: center; 	
+}
+
+.intro .inner {
+    display: table-cell; 
+    vertical-align: middle; 
+    width: 100%;
+    max-width: none; 	
+}
+
+.content {
+    max-width: 600px; 
+    margin: 0 auto; 
+    text-align: center; 	
+}
+
+.content h1 {
+	font-family: 'Ubuntu', sans-serif; 
+	font-size: 600%; 
+	font-weight: 200;
+    color: #ffffff;	
+	line-height: 70%; 
+	padding-bottom: 15%; 
+}
+
+.btn {
+    font-family: 'Noto Sans', sans-serif; 
+    font-size: 135%;
+    font-weight: 600;
+    color: #000000;
+    background: #ff9900; 	
+    text-decoration: none;
+    border: none;
+    border-radius: 9px; 	
+    padding: 10px 20px;  	
+	transition: all 0.5s; 
+}
+
+.btn:hover {
+	color: #333333; 
+    background: #ffad33;	
+}
+
+p {
+    font-size: 150%;
+    line-height: 125%;
+    font-family: sans-serif;
+    margin: 5% 10%;   	
+}
+
+/* CSS3 Media Queries */
+@media screen and (max-width: 900px) {
+    .content h1 {
+	    font-size: 450%;	
+	}
+	.btn {
+	    font-size: 130%;
+        padding: 9px 17px; 		
+	}
+}
+@media screen and (max-width: 768px) {
+    .content h1 {
+	    font-size: 300%;	
+	}
+	.btn {
+	    font-size: 110%;
+        padding: 7px 15px; 		
+	}
+	p {
+	    font-size: 120%;
+        line-height: 100%; 		
+	}
+}
+@media screen and (max-width: 480px) {
+	.content h1 {
+	    font-size: 250%;	
+	}
+	.btn {
+	    font-size: 110%;
+        padding: 6px 14px; 		
+	}
+	p {
+	    font-size: 100%;
+        line-height: 100%; 		
+	}
+}
