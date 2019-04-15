@@ -59,10 +59,21 @@ html, body {
     background: #ffad33;	
 }
 
+h2 {
+	padding-top: 25px; 
+    font-size: 200%;
+	font-weight: bold;
+	line-height: 200%;
+	text-align: center; 
+	margin: 2% 10%; 
+	font-family: 'Noto Sans', sans-serif; 
+}
+
 p {
     font-size: 150%;
     line-height: 125%;
-    font-family: sans-serif;
+	text-align: center; 
+    font-family: 'Noto Sans', sans-serif;
     margin: 5% 10%;   	
 }
 
@@ -84,6 +95,9 @@ p {
 	    font-size: 110%;
         padding: 7px 15px; 		
 	}
+	h2 {
+	    font-size: 150%;	
+	}
 	p {
 	    font-size: 120%;
         line-height: 100%; 		
@@ -96,6 +110,9 @@ p {
 	.btn {
 	    font-size: 110%;
         padding: 6px 14px; 		
+	}
+	h2{
+	    font-size: 125%; 	
 	}
 	p {
 	    font-size: 100%;
