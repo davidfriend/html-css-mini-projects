@@ -38,7 +38,13 @@ html, body {
 	font-weight: 200;
     color: #ffffff;	
 	line-height: 70%; 
-	padding-bottom: 15%; 
+}
+
+.content #tag-line {
+    font-family: 'Noto Sans', sans-serif;
+    color: #ffffff;
+    font-size: 150%; 	
+	padding-bottom: 30px; 
 }
 
 .btn {
@@ -124,6 +130,9 @@ input[type=submit]:hover {
     .content h1 {
 	    font-size: 450%;	
 	}
+	.content #tag-line {
+	    font-size: 150%;	
+	}
 	.btn {
 	    font-size: 130%;
         padding: 9px 17px; 		
@@ -132,6 +141,9 @@ input[type=submit]:hover {
 @media screen and (max-width: 768px) {
     .content h1 {
 	    font-size: 300%;	
+	}
+	.content #tag-line {
+	    font-size: 125%;	
 	}
 	.btn {
 	    font-size: 110%;
@@ -154,6 +166,9 @@ input[type=submit]:hover {
 @media screen and (max-width: 480px) {
 	.content h1 {
 	    font-size: 250%;	
+	}
+	.content #tag-line {
+	    font-size: 115%;	
 	}
 	.btn {
 	    font-size: 110%;
