@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway'); 
+@import url('https://fonts.googleapis.com/css?family=Questrial');
+
+body {
+    background: url('images/autumn-road.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 	
+}
+
+.container {
+	margin: 100px auto;
+	padding: 25px; 
+	text-align: center;
+} 
+
+h1 {
+    font-size: 600%;
+    font-family: 'Raleway', sans-serif;
+	font-weight: 600;
+    color: #ffcc00; 
+    margin-top: 150px;
+    margin-bottom: 100px;  	
+}
+
+p {
+    font-size: 150%; 
+    font-family: 'Questrial', sans-serif;
+	font-weight: 300; 
+    font-style: italic; 	
+    color: #ffffff;  	
+	text-align: right; 
+    padding-right: 100px; 	
+}
