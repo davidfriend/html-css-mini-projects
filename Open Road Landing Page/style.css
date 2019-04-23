@@ -14,7 +14,7 @@ body {
 	text-align: center;
 } 
 
-h1 {
+#app-title {
     font-size: 600%;
     font-family: 'Raleway', sans-serif;
 	font-weight: 600;
@@ -23,12 +23,41 @@ h1 {
     margin-bottom: 100px;  	
 }
 
-p {
+#tag-line {
     font-size: 150%; 
     font-family: 'Questrial', sans-serif;
 	font-weight: 300; 
     font-style: italic; 	
     color: #ffffff;  	
+	text-align: left; 
+    padding-left: 150px; 	
+}
+
+#call-to-action {
+    font-size: 125%; 
+    font-family: 'Questrial', sans-serif;
+	font-weight: 300; 	
+    color: #ffffff;  	
 	text-align: right; 
-    padding-right: 100px; 	
+    padding-right: 150px; 	
+}
+
+ul {
+    text-align: right; 	
+	margin-right: 250px; 
+}
+
+li {
+    display: inline; 	
+}
+
+a {
+    color: #f2f2f2;
+    text-decoration: none; 
+    font-size: 300%; 	
+	padding: 10px; 
+}
+
+a:hover {
+    color: #ffffff; 	
 }
